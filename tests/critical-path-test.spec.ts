@@ -12,7 +12,7 @@ test.beforeEach(async ({ page }) => {
   await page.goto(baseUrl);
 });
 
-test.only("QA Form critical path test", async ({ page }) => {
+test("QA Form critical path test", async ({ page }) => {
   await page.getByRole('button', { name: 'Continue' }).click();
   await page.getByPlaceholder('First Name').click();
   await page.getByPlaceholder('First Name').click();
