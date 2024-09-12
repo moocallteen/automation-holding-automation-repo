@@ -1,0 +1,30 @@
+{
+    "testData": 
+        [{
+            "firstName01": "Test First Name",
+            "middleName01": "Test Middle Name",
+            "lastName01": "Test Last Name",
+            "socialSecNum": "134 23 42342",
+            "birthdate01": "10/10/1991",
+            "phoneValue": "(555) 555-55555",
+            "firstAddress01": "Testing Street 01",
+            "testCity01": "Testing City 01"
+    
+        }],
+
+    "textValues":
+        [{
+        "homePageHeading": "This is a non-functional demo of the Mountain Life MYGA product. Please review your coversheet for details.",
+        "homePageSubHeading": "By using this demo, you agree to the following:",
+        "annuitantFormHeading": "Annuitant "
+        }],
+
+    "suffixValues":
+        [{
+        "seniour": "SR.",
+        "juniour": "JR.",
+        "second": "II",
+        "third": "III",
+        "fourth": "IV"
+        }]
+}

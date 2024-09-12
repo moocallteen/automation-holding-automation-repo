@@ -30,10 +30,14 @@ export default defineConfig({
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
-    // baseURL: 'http://127.0.0.1:3000',
-
+    baseURL: 'https://reap-staging.insurancesoftwareautomation.com/1725649261-mountain-life-secure-summit-qa-473a28f8-10a3-4fe0-89c8-317a4d7af130/',
+    // baseURL: 'http://reap-staging.insurancesoftwareautomation.com/1725983697-qa-test-form06f7d7f4-748b-4bb1-835d-d3b986ba73b6',
+    viewport: {width: 1440,height: 900,},
+    ignoreHTTPSErrors: true,
+    
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: "on-first-retry",
+    // trace: "on-failure",
 
     headless: true,
     launchOptions: {
